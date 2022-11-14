@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:row_colu_app/pages/list_page.dart';
 
-import 'pages/icon1.dart';
-
+import 'pages/home_page.dart';
 
 void main() => runApp(const MyApp());
 
@@ -16,10 +16,9 @@ class MyApp extends StatelessWidget {
 
       title: 'Flutter Demo',
       theme: ThemeData(
-        fontFamily: "Pattaya",      
+        fontFamily: "Pattaya",
         primarySwatch: Colors.blue,
       ),
-      // home: const Home1(),
       // home: const Home2(),
       // home: const Home3(),
       // home: const Home4(),
@@ -31,12 +30,15 @@ class MyApp extends StatelessWidget {
       // home: const Car(),
       // home: const Makeup(),
       // home: const HomePage(),
-      home: const Icon1(),
-
-
-
-
+      // home: const Icon1(),
+      home: const ListPage(),
+      // home: const ListPage2(),
+      // home: const Font(),
+      // home: const CardUi(),
+      // home: const Font1(),
     );
   }
 }
 
+class BuildContext {
+}
